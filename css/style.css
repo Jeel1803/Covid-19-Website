@@ -1,0 +1,419 @@
+.bg-std-primary {
+	background-color: yellow;
+}
+#main-menu a {
+	color: black;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+}
+#main-menu ul li {
+    padding-right: 30px;
+}
+#main-menu a:hover, #main-menu .social-icons i:hover {
+	color: rgba(0,0,0,0.5);
+}
+#main-menu .logo img {
+	width: 120px;
+}
+#main-menu .logo {
+	padding-right: 100px;
+	padding-left: 20px;
+}
+#main-menu .social-icons i {
+    font-size: 22px;
+    margin-right: 20px;
+    color: black;
+}
+
+#home-banner .banner-content, #vaccination-banner .banner-content,
+#counselling-banner .banner-content ,
+#charity-banner .banner-content, #about-banner .banner-content,
+#contact-banner .banner-content {
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+#home-banner .row {
+	background-image: url(../images/corona.jpg);
+}
+#home-banner .row, #vaccination-banner .row, #counselling-banner .row, 
+#charity-banner .row, #about-banner .row, #contact-banner .row {
+	height: 550px;
+	background-size: cover;
+	background-position: center center;
+}
+#home-banner .banner-content h1, #vaccination-banner .banner-content h1,
+#counselling-banner .banner-content h1, #charity-banner .banner-content h1,
+#about-banner .banner-content h1, #contact-banner .banner-content h1 {
+	color: white;
+	padding-bottom: 20px;
+	/*font-size: 43px;*/
+}
+#home-banner .banner-content p, #vaccination-banner .banner-content p, 
+#counselling-banner .banner-content p, #charity-banner .banner-content p,
+#about-banner .banner-content p, #contact-banner .banner-content p {
+	color: white;
+	/*font-size: 20px;*/
+}
+
+#common-sympt {
+	padding: 70px 0 30px 0;
+}
+#common-sympt .common-sympt-heading {
+	padding-bottom: 60px;
+}
+#common-sympt .common-sympt-row1 > div, #common-sympt .common-sympt-row2 > div,
+#covid-guide .covid-guide-treat > div, #covid-guide .covid-guide-stop > div .row > div, 
+#help .help-items > div .row > div, #people .row > div{
+	padding-bottom: 40px;	
+}
+#common-sympt .common-sympt-row1, #common-sympt .common-sympt-row2,
+#covid-guide .covid-guide-treat,#people .people-dis  {
+	padding-left: 100px;
+	padding-right: 100px;
+}	
+#common-sympt .common-sympt-row1 img, #common-sympt .common-sympt-row2 img {
+	margin-bottom: 20px;
+	filter: grayscale(1);
+}
+#common-sympt .common-sympt-row1 img:hover, #common-sympt .common-sympt-row2 img:hover {
+	filter: grayscale(0);
+	transition: transform .2s;
+	transform: scale(1.1);
+}
+#banner-vid .banner-quote {
+    background: url(../images/unity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: table;
+}
+#banner-vid .banner-quote figure {
+	display: table-cell;
+}
+#banner-vid .banner-quote figure p, #banner-vid .banner-quote figure figcaption {
+    color: white;
+    letter-spacing: 1px;
+}
+#banner-vid .banner-quote figure button, #vacci-banner .row > div button, 
+#vacci-page-banner .row > div button, #counselling-left-img .card .btn, 
+#counselling-right-img .card .btn, #counselling-appt .btn {
+	letter-spacing: 2px;
+	background-color: yellow;
+	border: 2px solid yellow;
+	color: black;
+	margin-top: 15px;
+	padding: 15px;
+	font-weight: 500;
+}
+#banner-vid .banner-quote figure button:hover, #vacci-banner .row > div button:hover, 
+#vacci-page-banner .row > div button:hover {
+	background-color: transparent;
+	color: yellow;
+}
+#covid-guide,#help, #people {
+	padding: 70px 0 30px 0;
+}
+#covid-guide .covid-guide-heading, #people .people-heading {
+	padding-bottom: 20px;
+}
+#covid-guide .covid-guide-treat h3, #covid-guide .covid-guide-stop h3,
+#people .people-dis h3 {
+	padding-bottom: 40px;
+}
+#covid-guide img, #people img {
+	padding-bottom: 20px;
+}
+#covid-guide .covid-guide-stop {
+	padding-left: 200px;
+	padding-right: 200px;
+}
+#vacci-banner {
+	background: url(../images/Vaccination.jpg);
+}
+#vacci-banner, #vacci-page-banner {    
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    padding: 200px 250px 200px 0;
+}
+#vacci-banner .row > div, #vacci-page-banner .row > div {
+	display: grid;
+}
+#vacci-banner .row > div h2, #vacci-page-banner .row > div h2 {
+	color: white;
+	padding-bottom: 15px;
+	letter-spacing: 1px;
+	line-height: 50px;
+}
+#covid-frame, #vaccination-list {
+	padding: 70px 0;
+}
+#covid-frame iframe {
+	width: 80%;
+    height: 650px;
+    border: 2px solid rgba(0,0,0,0.1);
+    margin: 50px auto 0;
+}
+#vaccination-banner .row {
+	background-image: url(../images/vaccineBanner1.jpg);
+}
+#vaccination-list {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+#vaccination-list .card {
+	margin-bottom: 40px;
+	height: 25vh;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+#vaccination-list .card .card-body {
+	display: table-cell;
+	vertical-align: middle;
+}
+#vacci-page-banner {
+	background: url(../images/slum.jpg);
+}
+#counselling-banner .row {
+	background-image: url(../images/counselling.jpg);	
+}
+#counselling-heading , #charity-heading, #about-heading{
+	padding: 70px 0 40px 0;
+}
+#counselling-left-img .img-box, #counselling-right-img .img-box {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#counselling-left-img .img-box1 {
+	background-image: url(../images/NeedToTalk.jpg);
+}
+#counselling-left-img .img-left-content, #counselling-right-img .img-right-content {
+    height: 40vh;
+}
+#counselling-left-img .card, #counselling-right-img .card {
+	border: none;
+	padding-top: 20px;
+}
+#counselling-left-img .card .btn:hover, #counselling-right-img .card .btn:hover, #counselling-appt .btn:hover {
+	opacity: 0.6;
+}
+#counselling-right-img .img-box2 {
+	background-image: url(../images/anxiety.jpg);	
+}
+#counselling-left-img .img-box3 {
+	background-image: url(../images/suicide.jpg);	
+}
+#counselling-right-img .img-box4 {
+	background-image: url(../images/kids.jpg);	
+}
+
+
+#charity-banner .row {
+	background-image: url(../images/charityBanner.jpg);	
+}
+
+#charity-banner-vid .banner-quote {
+    /*background: url(../images/donation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;*/
+    background-color: yellow;
+    display: table;
+}
+#charity-banner-vid .banner-quote figure {
+	display: table-cell;
+}
+#charity-banner-vid .banner-quote figure p, #charity-banner-vid .banner-quote figure figcaption {
+    color: black;
+    letter-spacing: 1px;
+}
+#help .help-heading {
+	padding-bottom: 20px;
+}
+#help .help-items h3 {
+	padding-bottom: 40px;
+}
+#help img {
+	padding-bottom: 20px;
+	width: 268px;
+	height: 268px;
+
+}
+#help .help-items {
+	padding-left: 200px;
+	padding-right: 200px;
+}
+#about-banner .row {
+	background-image: url(../images/group.jpg);	
+}
+#contact-banner .row {
+	background-image: url(../images/contactus1.jpg);	
+}
+#contact-form {
+	padding: 0 0 70px 0;
+}
+#counselling-form, #charity-form {
+	padding: 70px 0;
+}
+form#counselling-appt, #charity, #contact {
+    padding: 40px 30px;
+    border: 2px solid rgba(0,0,0,0.7);
+}
+section#counselling-form form#counselling-appt .row, #charity .row, #contact .row {
+    padding-bottom: 25px;
+}
+section#counselling-form form#counselling-appt input, section#counselling-form form#counselling-appt select, 
+#charity input, #charity select, #contact input, #contact textarea {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0;
+    padding-left: 5px;
+    background-color: transparent;
+}
+form#counselling-appt .radio-btn > label input, #charity .radio-btn > label input {
+    margin-right: 5px;
+}
+form#counselling-appt .radio-btn > label, #charity .radio-btn > label {
+    padding-right: 20px;
+}
+#charity .btn, #contact .btn {
+	letter-spacing: 2px;
+	background-color: transparent;
+	border: 2px solid black;
+	color: black;
+	margin-top: 15px;
+	padding: 15px;
+	font-weight: 500;
+}
+#charity .btn:hover, #contact .btn:hover {
+	background-color: black;
+	color: yellow;
+}
+#about-heading, #people {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+#about-vision {
+	background-color: yellow;
+	padding: 70px 150px;
+}
+footer {
+	background-color: yellow;
+}
+footer > section{
+	padding-top: 50px;
+}
+footer a {
+	text-decoration: none;
+	font-weight: 400;
+}
+footer a:hover {
+	font-weight: 500;
+}
+footer iframe {
+	width: 350px;
+	height: 200px;
+}
+footer .footer-social-icons i {
+    font-size: 22px;
+    margin-right: 15px;
+    color: black;
+}
+footer .footer-social-icons i:hover {
+	opacity: 0.4;
+}
+
+
+
+/* Media Query */
+
+@media (max-width: 768px) {
+	#main-menu ul li, #main-menu .social-icons {
+		padding-left: 20px;
+	}
+	#main-menu div#navbarNav, #main-menu .social-icons {
+	    border-top: 2px solid rgba(0,0,0,0.1);
+	}
+	#common-sympt .common-sympt-row1, #common-sympt .common-sympt-row2, #covid-guide .covid-guide-treat, #covid-guide .covid-guide-stop, #help .help-items {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#banner-vid .banner-quote {
+		padding: 60px 0;
+	}
+	#covid-guide {
+		padding: 0 0 30px 0;
+	}
+	#vacci-banner, #vacci-page-banner {
+		padding: 100px 0;
+	}
+	#vacci-banner .row > div, #vacci-page-banner .row > div {
+		display: block;
+		text-align: center;
+	}
+	#covid-frame iframe {
+		width: 90%;
+		height: 320px;
+	}
+	#vaccination-list {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#counselling-left-img .img-box, #counselling-right-img .img-box {
+		height: 30vh;
+	}
+	#counselling-left-img .img-left-content, #counselling-right-img .img-right-content {
+	    height: inherit;
+	    padding-bottom: 30px;
+	}
+	#counselling-right-img .row {
+		flex-flow: column-reverse;
+	}
+	#counselling-right-img .card {
+		text-align: left !important;
+	}
+	#charity-vid .banner-quote {
+		padding: 60px 0;
+	}
+	#help {
+		padding: 0 0 30px 0;
+	}
+
+	#counselling-heading  .fa {
+		margin: 0;
+
+	}
+
+	#about-heading  {
+	padding: 70px 0 30px 0;
+	}
+
+	#about-vision{
+			padding: 70px 0 30px 0;
+	}
+
+	#people{
+		padding: 70px 0 30px 20px;
+	}
+	
+	section#counselling-form form#counselling-appt .row, #charity .row, #contact .row {
+		padding-bottom: 0;
+	}
+	section#counselling-form form#counselling-appt input, section#counselling-form form#counselling-appt datalist, #charity input, #charity select, #contact input, #contact textarea {
+		padding-bottom: 10px;
+	}
+	form#counselling-appt .radio-btn, #charity .radio-btn {
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+	form#counselling-appt .radio-btn label, #charity .radio-btn label {
+		display: block;
+	}
+	footer iframe {
+		width: 250px;
+		height: 200px;
+	}
+}

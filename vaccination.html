@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Vaccination | COVID-19 </title>
+
+		<!-- Meta Tags -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- CSS Files -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!-- JS Files -->
+		<script type="text/javascript" src="js/menu.js"></script>
+		<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+		
+		 <style>
+		        
+		        .animation1 {
+		            position: relative;
+		            animation-name: injection;
+		            animation-duration: 4s;
+		            animation-delay: 2s;
+		        }
+
+		        @keyframes injection {
+		            0% {
+		                left: 0px;
+		                top: 0px;
+		            }
+
+		            25% {
+		                left: 100px;
+		                top: 0px;
+		            }
+
+		            100% {
+		                left: 0px;
+		                top: 0px;
+		            }
+		        }
+
+
+
+
+		        .animation2 {
+		            position: relative;
+		            animation-name: virus;
+		            animation-duration: 5s;
+		            animation-delay: 3.5s;
+		            animation-fill-mode: forwards;
+		            
+		        }
+
+		        
+
+		        @keyframes virus {
+		            from {
+		                left: 0px;
+		                top: 0px;
+		            }
+
+		            to {
+		                left: 500px;
+		                top: 0px;   
+		                visibility: hidden;
+		            }
+		        }
+
+		        .animation{
+		        	padding: 80px 50px 0 120px;
+		        }
+		        .animation2 {
+		        	padding: 0 0 0 150px;
+		        }
+
+		        @media (max-width: 768px) {
+		        	@keyframes injection {
+			            0% {
+			                left: 0px;
+			                top: 0px;
+			            }
+
+			            25% {
+			                left: 30px;
+			                top: 0px;
+			            }
+
+			            100% {
+			                left: 0px;
+			                top: 0px;
+			            }
+			        }
+			        @keyframes virus {
+			            from {
+			                left: 0px;
+			                top: 0px;
+			            }
+
+			            to {
+			                left: 120px;
+			                top: 0px;   
+			                visibility: hidden;
+			            }
+			        }
+			        .animation{
+			        	padding: 20px 0 0 0 !important;
+			        }
+			        .animation2 {
+			        	padding: 0 !important;
+			        }
+			        .animation2 img {
+			        	width: 20% !important;
+			        }
+			        .animation img {
+			        	width: 30%;
+			        }
+		        }
+		
+		    </style>
+	</head>
+
+	<body>
+
+		<div id="outerdiv">
+			<nav id="menu">
+			</nav>
+		</div>
+
+		
+
+
+		<section id="vaccination-banner">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="banner-content">
+						<h1 class="fw-bold" style="letter-spacing: 2px;">Vaccination</h1>
+						<p class="fs-5">One of the best way to protect yourself against COVID-19</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="animation">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="animation">
+						<div class="animation1">
+							<img src="Images/injection.png" style="float:left;">
+						</div>
+						<div class="animation2">
+							<img src="Images/virus.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="vaccination-list">
+			<div class="container-fluid">
+				<h2 class="text-center fs-1 fw-bold" style="letter-spacing: 2px; padding-bottom: 40px;"> Various COVID-19 Vaccines availabe worldwide </h2>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+						<div class="card text-center">
+							<div class="card-body">
+								<h5 class="card-title fs-4">Oxford–AstraZeneca</h5>
+								<p class="card-text">
+									Code name: AZD1222<br>
+									Type: Viral Vector<br>
+									Brand name: Covishield and Vaxzevria<br>
+									Developed by: Oxford University and AstraZeneca<br>
+									Rollout: Multinational
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+						<div class="card text-center">
+							<div class="card-body">
+								<h5 class="card-title fs-4">Pfizer–BioNTech</h5>
+								<p class="card-text">
+									Code name: BNT162b2<br />
+									Type: mRNA<br />
+									Brand name: Comirnaty<br />
+									Developed by: Pfizer and BioNTech<br />
+									Rollout: Multinational
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+						<div class="card text-center">
+							<div class="card-body">
+								<h5 class="card-title fs-4">Sputnik V</h5>
+								<p class="card-text">
+									Code name: Gam-COVID-Vac<br />
+									Type: Viral Vector<br />
+									Brand name: Sputnik V<br />
+									Developed by:  Gamaleya Research Institute of Epidemiology and Microbiology<br />
+									Rollout: Russia
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+						<div class="card text-center">
+							<div class="card-body">
+								<h5 class="card-title fs-4">BBIBP-CorV</h5>
+								<p class="card-text">
+									Code name: None<br />
+									Type: Inactivated<br />
+									Brand name: N/A<br />
+									Developed by:  Sinopharm's Beijing Institute of Biological Products<br />
+									Rollout: Multination
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+						<div class="card text-center">
+							<div class="card-body">
+								<h5 class="card-title fs-4">Moderna</h5>
+								<p class="card-text">
+									Code name: mRNA-1273<br />
+									Type: 	mRNA<br />
+									Brand name: Moderna COVID‑19 Vaccine<br />
+									Developed by:   Moderna<br />
+									Rollout: United States
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+						<div class="card text-center">
+							<div class="card-body">
+								<h5 class="card-title fs-4">Novavax</h5>
+								<p class="card-text">
+									Code name: NVX-CoV2373<br />
+									Type: Subunit<br />
+									Brand name: Covovax<br />
+									Developed by: Novavax and the Coalition for Epidemic Preparedness Innovations<br />
+									Rollout: United states and Mexico
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+						<div class="card text-center">
+							<div class="card-body">
+								<h5 class="card-title fs-4">Johnson & Johnson</h5>
+								<p class="card-text">
+									Code name: Ad26.COV2.S<br />
+									Type: Viral Vector<br />
+									Brand name: Janssen COVID-19<br />
+									Developed by: Janssen Vaccines<br />
+									Rollout: Multinatio
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+						<div class="card text-center">
+							<div class="card-body">
+								<h5 class="card-title fs-4">CoronaVac</h5>
+								<p class="card-text">
+									Code name: None<br />
+									Type: Inactivated<br />
+									Brand name: CoronaVac<br />
+									Developed by: Sinovac Biotech.<br />
+									Rollout: Brazil and Turkey
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<div class="card text-center">
+							<div class="card-body">
+								<h5 class="card-title fs-4">Covaxin</h5>
+								<p class="card-text">
+									Code name: BBV152<br />
+									Type: Inactivated<br />
+									Brand name: Covaxin<br />
+									Developed by:  Bharat Biotech<br />
+									Rollout: India
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<div class="card text-center">
+							<div class="card-body">
+								<h5 class="card-title fs-4">Convidecia</h5>
+								<p class="card-text">
+									Code name: None<br />
+									Type: Viral Vector<br />
+									Brand name: Convidecia<br />
+									Developed by: CanSino Biologics<br />
+									Rollout: Multination
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<div class="card text-center">
+							<div class="card-body">
+								<h5 class="card-title fs-4">Sputnik Light</h5>
+								<p class="card-text">
+									Code name: None<br />
+									Type: Viral Vector<br />
+									Brand name: N/A<br />
+									Developed by:  Gamaleya Research Institute of Epidemiology and Microbiology.<br />
+									Rollout: Russia
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section id="vacci-page-banner">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col justify-content-end">
+						<h2 class="fs-1"> Lockdown is not same for everyone<br>Be Kind and Help people <br /></h2>
+						<button onclick="location.href = 'charity.html';" type="button" class="btn">Contribute!!</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="covid-frame">
+			<div class="container-fluid">
+				<div class="row">
+					<h2 class="text-center fs-1 fw-bold" style="letter-spacing: 2px;">Vaccination worldwide</h2>
+					<iframe src="https://public.domo.com/cards/31O7r" marginheight="0" marginwidth="0" frameborder="100"></iframe>
+				</div>
+			</div>
+		</section>
+
+		<footer class="text-center text-lg-start">
+			<section class="">
+				<div class="container text-center text-md-start">
+					<div class="row mt-3">
+
+						<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+							<h6 class="text-uppercase fw-bold mb-4">
+								TACKLE COVID-19
+							</h6>
+							<p>
+								Lets unite against Covid-19. <br />noho haumaru, kia kaha te iwi
+							</p>
+							<div class="navbar-text footer-social-icons">
+								<a href="https://www.facebook.com/tacklecovid-19-s target="_blank""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href="https://www.instagram.com/tacklecovid-19 target="_blank""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+								<a href="https://www.twitter.com/tacklecovid-19 target="_blank""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							</div>
+						</div>
+
+						<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+							<h6 class="text-uppercase fw-bold mb-4">
+								Useful Links
+							</h6>
+							<p>
+								<a href="counselling.html" class="text-reset">Counselling</a>
+							</p>
+							<p>
+								<a href="charity.html" class="text-reset">Charity</a>
+							</p>
+							<p>
+								<a href="vaccination.html" class="text-reset">Vaccination</a>
+							</p>
+							<p>
+								<a href="about.html" class="text-reset">About Us</a>
+							</p>
+						</div>
+
+						<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3186.6623825505103!2d174.87510011588353!3d-36.99399129535274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d4dc0014191a1%3A0x134d1133e88c7ca5!2sManukau%20Institute%20of%20Technology%2C%20Manukau%20campus!5e0!3m2!1sen!2snz!4v1624963214980!5m2!1sen!2snz" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="text-center p-4" style="border-top: 1px solid black;">
+				© 2021 Copyright:
+				<a class="text-reset fw-bold" href="#">JEEL</a>
+			</div>
+
+		</footer>
+
+	</body>
+
+</html>
